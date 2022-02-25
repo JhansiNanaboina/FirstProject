@@ -1,17 +1,12 @@
-import React from 'react'; 
-import NewForm from './components/NewForm';
-import youtubeform from './components/youtubeform';
+import React from 'react';
+import ToDolist from './Components/ToDolist'
 
 function App() {
   return (
-    <div className="App">
-     {/* <youtubeform /> */}
-     <NewForm />
+    <div>
+      <ToDolist />
     </div>
-  );
+  )
 }
-
-
-                
 
 export default App
